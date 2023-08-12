@@ -98,6 +98,10 @@ header .search
     padding: 0 30px;
     transition: 0.5s ease-in-out;
 }
+.searchBox.active
+{
+  right:0;
+}
 .searchBox input
 {
     width: 100%;
