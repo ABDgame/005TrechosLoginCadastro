@@ -101,6 +101,11 @@ header .search
 .searchBox input
 {
     width: 100%;
+    border: none;
+    outline: none;
+    height: 50px;
+    font-size:1.25em;
+    background:#000;
 }
 
 
