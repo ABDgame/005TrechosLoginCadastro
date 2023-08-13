@@ -9,7 +9,9 @@
 }
 
 body{
-    background: #bc955a;
+    background:url("0021-DocePaladar.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     overflow-x: hidden;
 }
