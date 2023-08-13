@@ -167,6 +167,15 @@ header .search
         visibility: hidden;
         left: 100%;
     }
+    header.open .navigation
+    {
+       opacity: 1;
+       visibility: visible; 
+       left: 0;
+       display: flex;
+       flex-direction: column;
+       background: #fff;
+    }
 }
 
 
