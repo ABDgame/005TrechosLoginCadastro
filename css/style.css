@@ -183,7 +183,7 @@ header .search
     }
     header.open .navigation li a
     {
-        font-size: 1.2;
+        font-size: 1.2em;
     }
 }
 
