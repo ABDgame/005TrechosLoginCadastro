@@ -138,14 +138,36 @@ header .search
     transition: 0.5s;
     scale:1;
 }
-
-
-
-
-
-
-/* now, make it responsive*/
 .menuToggle
+{
+    position: relative;
+    display: none;
+}
+/* now, make it responsive*/
+@media (max-width:800px)
+{
+    .searchBtn
+    {
+        left: 0;
+    }
+    .menuToggle 
+    {
+        position: absolute;
+        display: block;
+        font-size: 2em;
+        cursor: pointer;
+        transform: translateX(30px);
+        z-index: 10;
+
+    }
+    header .navigation
+    {
+        position: absolute;
+        opacity: 0;
+        visibility: hidden;
+        left: 100%;
+    }
+}
 
 
 
