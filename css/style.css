@@ -185,6 +185,10 @@ header .search
     {
         font-size: 1.2em;
     }
+    .hide
+    {
+        display: none;
+    }
 }
 
 
