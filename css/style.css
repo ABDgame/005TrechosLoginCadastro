@@ -120,12 +120,23 @@ header .search
     top: 2.5px;
     transition: 0.5s ease-in-out;
 }
+.searchBtn.active
+{
+    left: 0;
+}
 .closeBtn
 {
     opacity: 0;
     visibility: hidden;
+    transition: 0.5s;
+    scale:0;
 }
-
+.closeBtn.active
+{
+    opacity: 1;
+    visibility: visible;
+    transition: 0.5s;
+}
 
 
 
