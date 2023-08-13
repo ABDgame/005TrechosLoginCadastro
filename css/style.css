@@ -136,6 +136,7 @@ header .search
     opacity: 1;
     visibility: visible;
     transition: 0.5s;
+    scale:1;
 }
 
 
