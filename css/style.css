@@ -42,7 +42,14 @@ body::before
     position: absolute;
     width:100%;
     height:100%;
-    background: repeating-linear-gradient();
+    background: repeating-linear-gradient(from 0deg, #45f3ff 0%, 
+    #45f3ff 10% transparent 10%,transparent 80%,#45f3ff 100%);
+    border-radius: 20px;
+    animation: aninate 2.5s linear infinite;
+}
+@keyframes animate
+{
+    
 }
 .container span
 {
