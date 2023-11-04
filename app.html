@@ -5,81 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" contente="IE=edge">
 
-    <meta name="title" content="TELA DE LOGIN">
+    <meta name="title" content="TELA DE LOGIN E CADASTRO">
     <meta name="description" content="Tela de login desenvolvido por MQJogos">
   
-    <link rel="shortcut icon" href="./src/imagens/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="css/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
     
     <link rel="stylesheet" href="css/style.css">
-
-    <title>TELA DE LOGIN </title>
+    <title>TELA DE LOGIN E CADASTRO </title>
 
 </head>
 
 <body>
-<header>
-
-    <a href="#" class="logo">MQJogos<span class="span">.</span></a>
     
-    <div class="group">
-
-        <ul class="navigation">
-            <li><a href="#"> Início </a></li>
-            <li><a href="#"> A MQJogos </a></li>
-            <li><a href="#"> Portfólio </a></li>
-            <li><a href="#"> Blog</a></li>
-            <li><a href="#"> Contato</a></li>
-        </ul>
-    <div class="search">
-    <span class="icon">
-        <ion-icon name="search-outline" 
-        class="searchBtn"></ion-icon>
-        <ion-icon name="close-outline"
-         class="close"></ion-icon>
-        
-    </span>
-</div>
-<ion-icon name="menu-outline" class="menuToggle" ></ion-icon>      
-</div>
-<div class="searchBox">
-    <input type="text" placeholder="Pesquisar...">
-</div>
-</header>
-
-<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-<script>
-    let searchBtn = document.querySelector('.
-    searchBtn');
-    let closeBtn = document.querySelector('.
-    closeBtn');
-    let searchBox = document.querySelector('.
-    searchBox');
-    let navigation = document.querySelector('.navigation');
-    let menuToggle = document.querySelector('.menuToggle');
-    let header = document.querySelector('header');
-   
-    searchBtn.onclick = function(){
-      searchBox.classList.add('active');
-      closeBtn.classList.add('active');
-      searchBtn.classList.add('active');
-      menuToggle.classList.add('hide');
-      header.classList.remove('open');
-    }
-    closeBtn.onclick = function(){
-      searchBox.classList.remove('active');
-      closeBtn.classList.remove('active');
-      searchBtn.classList.remove('active');
-      menuToggle.classList.remove('hide');
-    }
-    menuToggle.onclick = function(){
-       header.classList.toggle('open');
-       searchBox.classList.remove('active');
-       closeBtn.classList.remove('active');
-       searchBtn.classList.remove('active');
-    }
-    
-</script>    
 </body>
 </html>
