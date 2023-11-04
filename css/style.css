@@ -93,3 +93,8 @@ body::before
     background-position: center;
     filter: blur(15px);
 }
+form
+{
+    position: absolute;
+    
+}
