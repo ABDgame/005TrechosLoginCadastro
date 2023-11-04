@@ -15,5 +15,19 @@ body
 body::before
 {
     content:'';
+    position: absolute;
+    inset:0;
+    background: url(background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.container 
+{
+    position: relative;
+    width: 350px;
+    
+
+
 }
 
