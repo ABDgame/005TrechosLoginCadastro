@@ -67,6 +67,10 @@ body.signup .container
     border-radius: 20px;
     animation: animate 2.5s linear infinite;
 }
+body.signup .container::before
+{
+    filter: hue-rotate(140deg);
+}
 @property --a
 {
     syntax: '<angle>';
