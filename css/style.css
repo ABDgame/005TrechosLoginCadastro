@@ -138,6 +138,10 @@ form
     gap:15px;
     transition: 0.5s;   
 }
+body.signup form#signinForm 
+{
+   left: -100%;
+}
 form h2
 {
     pisition: relative;
