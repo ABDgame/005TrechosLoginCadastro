@@ -112,6 +112,44 @@ form h2
     font-size:1.5em;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-
-
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+form .inputBox 
+{
+    position: relative;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+form .inputBox a
+{
+    color: #fff;
+    text-decoration:none;
+    font-size:0.85em;
+}
+form .inputBox a:nth-child(2)
+{
+    text-decoration:underline;
+}
+form .inputBox input 
+{
+    width: 100%;
+    outline: none;
+    border: 1px solid rgba(255,255,255,0.25);
+    background: rgba(0,0,0,0.15);
+    padding:6px 15px;
+    border-radius: 4px;
+    font-size: 0.85em;
+    color:#fff;
+}
+form .inputBox input::placeholder
+{
+    color: rgba(255,255,255,0.5);
+}
+form .inputBox input[type="submit"]
+{
+    background:#2196f3;
+    font-weight: 500;
+    cursor: pointer;
 }
