@@ -198,3 +198,13 @@ form .inputBox input[type="submit"]
     font-weight: 500;
     cursor: pointer;
 }
+form#signupForm .inputBox input[type="submit"]
+{
+    background:#f4242f;
+}
+form#signupForm b
+{
+    font-weight: 500;
+    color: #ffeb3b;
+    text-decoration: underline;
+}
