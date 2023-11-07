@@ -17,7 +17,7 @@
         <span></span>
         <span></span>
         <form id="signinForm">
-            <h2>Login</h2>
+            <h2>Logar</h2>
             <div class="inputBox">
                 <input type="text" placeholder="Nome Usuário ">
             </div>
@@ -26,23 +26,23 @@
             </div>
             <div class="inputBox">
                 <a href="#">Esqueci a senha</a>
-                <a href="#">Logar</a>
+                <a href="#" id="signup">Inscrever-se</a>
             </div>
             <div class="inputBox">
-                <input type="submit" value="Logar">
+                <input type="submit" value="Entrar">
             </div>
         </form>
 
         <form id="signupForm">
             <h2>Cadastrar</h2>
             <div class="inputBox">
-                <input type="text" placeholder="Nome do Usuário ">
+                <input type="text" placeholder="Nome Usuário ">
             </div>
             <div class="inputBox">
-                <input type="text" placeholder="Email do Usuário">
+                <input type="text" placeholder="Email">
             </div>
             <div class="inputBox">
-                <input type="password" placeholder="Criar Senha">
+                <input type="password" placeholder="Senha">
             </div>
             <div class="inputBox">
                 <input type="password" placeholder="Confirmar Senha">
@@ -51,11 +51,10 @@
                 <input type="submit" value="Registrar Conta">
             </div>
             <div class="inputBox group">
-                <a href="#">Já tem uma conta?<b id="signin">Logar</b></a>
+                <a href="#">Esqueci a senha<b
+                 id="signin">Logar</b></a>
             </div>
-        </form>
-
-                    
+        </form>              
     </div> 
     <script>
         let signup = document.querySelector('#signup');
@@ -64,8 +63,8 @@
         signup.onclick = function(){
             body.classList.add('signup');
         }
-        signup.onclick = function(){
-            body.classList.remove('signup');
+        signin.onclick = function(){
+            body.classList.remove('signin');
         }
     </script>
 </body>
