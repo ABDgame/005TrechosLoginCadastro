@@ -26,13 +26,13 @@ body::after
 {
     content:'';
     position: absolute;
-    inset:0;
+    inset: 0;
     background: url(bg2.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    opacity:0;
-    transition:0.5s;
+    opacity: 0;
+    transition: 0.5s;
 }
 body.signup::after
 {
@@ -74,7 +74,7 @@ body.signup .container::before
 @property --a
 {
     syntax: '<angle>';
-    inherites: false;
+    inherits: false;
     initial-value: 0deg;
 }
 @keyframes animate
@@ -91,7 +91,7 @@ body.signup .container::before
 .container span
 {
     position: absolute;
-    inset:5px;
+    inset: 5px;
     overflow: hidden;
     border-radius: 15px;
 }
@@ -146,13 +146,13 @@ body.signup form#signinForm
 {
    left: -100%;
 }
-body.signup form#signupForm
+body.signup form#signupForm 
 {
-    left: 0%;
+   left: 0;
 }
 form h2
 {
-    pisition: relative;
+    position: relative;
     color:#fff;
     font-size:1.5em;
     letter-spacing: 0.1em;
@@ -200,7 +200,7 @@ form .inputBox input[type="submit"]
 }
 form#signupForm .inputBox input[type="submit"]
 {
-    background:#f4242f;
+    background:#f4242f; 
 }
 form#signupForm b
 {
