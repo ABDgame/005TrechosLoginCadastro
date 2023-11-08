@@ -153,7 +153,7 @@ body.signup form#signupForm
 form h2
 {
     position: relative;
-    color:#fff;
+    color:#000;
     font-size:1.5em;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -169,7 +169,7 @@ form .inputBox
 }
 form .inputBox a
 {
-    color: #fff;
+    color: #000;
     text-decoration:none;
     font-size:0.85em;
 }
@@ -186,7 +186,7 @@ form .inputBox input
     padding:6px 15px;
     border-radius: 4px;
     font-size: 0.85em;
-    color:#fff;
+    color:#000;
 }
 form .inputBox input::placeholder
 {
